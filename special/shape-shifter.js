@@ -19,7 +19,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('zhou|chuan|yu|love you|#icon thumbs-up|#countdown 3||');
+      S.UI.simulate('zhou|chuan|yu|love you|#countdown 3|| suprise');
     }
 
     S.Drawing.loop(function () {
